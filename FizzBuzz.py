@@ -8,5 +8,5 @@ for i in numbers:
         numbers[i-1]="Buzz"
     else:
         numbers[i-1]=i
+    print(numbers[i-1])
     i+=1
-print(numbers)
